@@ -12,9 +12,13 @@ Follow these steps to set up the environment and run the code in the "numberplat
 3.Execute the following commands line by line
 
 3.1 "python -m venv IM " # (IM is the kernel name; you can use any name you prefer)
+
 3.2 ".\IM\Scripts\activate"
+
 3.3 "pip install ipykernel"
+
 3.4 "python -m ipykernel install --name=IM"
+
 These commands will create and activate a virtual environment named "IM" and install the necessary kernel for running the code.
 
 Your kernel has been successfully created.
